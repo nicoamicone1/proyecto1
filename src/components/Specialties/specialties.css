@@ -44,6 +44,7 @@
     max-width: 1200px;
     margin: 0 auto;
     align-items: stretch; 
+    padding-bottom: 40px;
 }
 
 .specialty-card {
@@ -56,6 +57,17 @@
     align-items: center;
     position: relative;
     border: 1.5px solid rgba(102, 115, 126, 0.1);
+    scroll-margin-top: 120px;
+}
+
+.specialty-card:target {
+    animation: highlight 2.5s ease forwards;
+}
+
+@keyframes highlight {
+    0% { box-shadow: 0 0 0 2px var(--solana-sky-blue); border-color: var(--solana-sky-blue); }
+    70% { box-shadow: 0 0 0 2px var(--solana-sky-blue); border-color: var(--solana-sky-blue); }
+    100% { box-shadow: none; border-color: transparent; }
 }
 
 .specialty-card:hover {
