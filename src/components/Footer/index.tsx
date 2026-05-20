@@ -1,5 +1,5 @@
 import React from "react";
-import { Scale, Phone, Mail, Camera } from "lucide-react";
+import { Scale, Phone, Mail} from "lucide-react";
 import "./footer.css";
 
 const Footer = () => {
