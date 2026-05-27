@@ -7,7 +7,7 @@ const Footer = () => {
     "https://api.whatsapp.com/send/?phone=5493815765967&text=Hola+Dra.+Pons+Amun%2C+necesito+hacer+una+consulta+legal.&type=phone_number&app_absent=0";
 
   return (
-    <footer className="footer">
+    <footer className="footer" id="contacto">
       <div className="footer__container">
         {/* Columna 1: Brand */}
         <div className="footer__brand">

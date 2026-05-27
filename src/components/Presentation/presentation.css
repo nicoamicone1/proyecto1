@@ -6,18 +6,6 @@
     background: var(--solana-deep-blue);
 }
 
-@media (max-width:1024px) {
-    .presentation {
-        padding-top: 80px;
-    }
-}
-
-@media (max-width:768px) {
-    .presentation {
-        padding-top: 120px;
-    }
-}
-
 /* Background */
 .presentation__bg {
     position: absolute;
@@ -59,14 +47,14 @@
 .presentation__container {
     position: relative;
     z-index: 2;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
-    padding: 3rem 24px;
+    padding: 3rem 0;
     width: 100%;
 }
 
 .presentation__content {
-    max-width: 600px;
+    max-width: 650px;
     text-align: left;
 }
 
@@ -93,7 +81,7 @@
 
 /* Title */
 .presentation__title {
-    font-size: 65px;
+    font-size: 72px;
     font-weight: 700;
     line-height: 1.05;
     color: white;
@@ -108,7 +96,7 @@
 
 /* Text */
 .presentation__text {
-    font-size: 18px;
+    font-size: 20px;
     color: var(--solana-cream);
     margin-bottom: 48px;
     line-height: 1.6;
@@ -170,4 +158,78 @@
     font-size: 12px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+}
+
+
+/* Responsive */
+@media (max-width: 1280px) {
+  .presentation__container {
+        padding: 110px 24px 3rem;
+    }    
+}
+
+@media (max-width: 1024px) and (min-width: 481px) {
+    .presentation__image {
+        width: 100%;    
+        opacity: 0.50; 
+    }
+
+    .presentation__overlay {
+        background: linear-gradient(to right,
+            rgba(43, 61, 97, 0.85) 0%,
+            rgba(43, 61, 97, 0.85) 100%); 
+    }
+
+    .presentation__container {
+        padding: 110px 24px 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .presentation__container {
+        padding: 0 24px;
+    }
+
+    .presentation__image {
+        width: 100%;    
+        opacity: 0.50; 
+    }
+
+    .presentation__overlay {
+        background: linear-gradient(to right,
+            rgba(43, 61, 97, 0.85) 0%,
+            rgba(43, 61, 97, 0.85) 100%); 
+    }
+
+    .presentation__line {
+    width: 25px;
+    height: 1.5px;
+    }
+
+    .presentation__title {
+        font-size: 42px;
+    }
+
+    .presentation__text {
+        font-size: 18px;
+    }
+
+    .presentation__trust {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        margin-top: 30px;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .presentation {
+        padding: 100px 5px;
+    }
 }
