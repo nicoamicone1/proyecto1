@@ -1,11 +1,4 @@
 .specialties {
-    --solana-deep-blue: #2b3d61;
-    --solana-sky-blue: #b6d0e5;
-    --solana-cream: #f5f4f0;
-    --solana-blue-gray: #9095a9;
-    --font-serif: 'Playfair Display', serif;
-    --font-sans: 'Inter', sans-serif;
-
     padding: 100px 24px;
     background-color: white;
     text-align: center;
@@ -41,9 +34,10 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); 
     gap: 30px;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
     align-items: stretch; 
+    padding-bottom: 40px;
 }
 
 .specialty-card {
@@ -56,6 +50,17 @@
     align-items: center;
     position: relative;
     border: 1.5px solid rgba(102, 115, 126, 0.1);
+    scroll-margin-top: 120px;
+}
+
+.specialty-card:target {
+    animation: highlight 2.5s ease forwards;
+}
+
+@keyframes highlight {
+    0% { box-shadow: 0 0 0 2px var(--solana-sky-blue); border-color: var(--solana-sky-blue); }
+    70% { box-shadow: 0 0 0 2px var(--solana-sky-blue); border-color: var(--solana-sky-blue); }
+    100% { box-shadow: none; border-color: transparent; }
 }
 
 .specialty-card:hover {
