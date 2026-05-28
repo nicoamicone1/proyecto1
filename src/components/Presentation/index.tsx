@@ -1,5 +1,6 @@
 import React from "react";
 import "./presentation.css";
+import presentationimg from "../../assets/images/presentation.jpg";
 import { MessageCircle, Calendar, ShieldCheck } from "lucide-react";
 
 const Presentation = () => {
@@ -15,7 +16,7 @@ const Presentation = () => {
         <div className="presentation__overlay-top"></div>
 
         <img
-          src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=2670&auto=format&fit=crop"
+          src={presentationimg}
           alt="Estatua de la Justicia"
           className="presentation__image"
         />
