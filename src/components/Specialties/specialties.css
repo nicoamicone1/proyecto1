@@ -142,12 +142,14 @@
     transition: transform 0.6s var(--smooth-spring); 
 }
 
+/* Responsive*/
 @media (max-width: 1024px) {
     
     .specialties__grid {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        gap: 80px 30px; 
     }
 
     .specialty-card {
@@ -155,12 +157,6 @@
     }
 }
 
-@media (max-width: 1024px) {
-    .specialties__grid {
-        gap: 80px 30px; 
-    }
-
-}
 
 @media (max-width: 768px) {
     .specialties__grid {

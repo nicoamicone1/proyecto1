@@ -125,10 +125,13 @@ const Footer = () => {
 
       {/* Bottom bar */}
       <div className="footer__bottom">
+        <div className="footer__bottom-main">
         <span>
           © 2026 Dra. Pons Amun Estudio Jurídico. Todos los derechos reservados.
         </span>
         <span>San Miguel de Tucumán</span>
+      </div>
+      <span className="footer__bottom-credit">Paltech-Software</span>
       </div>
     </footer>
   );
