@@ -69,9 +69,9 @@ const Presentation = () => {
           </div>
           <div className="presentation__trust">
             <ShieldCheck size={14} strokeWidth={1.5} color="var(--solana-cream)" />
-            <span>Todo lo consultado y conservado se encuentra protegido por el secreto profesional.</span>
+            <span>Todo lo consultado y conversado se encuentra protegido por el secreto profesional.</span>
             {/*<span>Confidencialidad y secreto profesional garantizados.</span>
-               <span>Todo lo consultado y conservado se encuentra protegido por el secreto profesional.</span>
+               <span>Todo lo consultado y conversado se encuentra protegido por el secreto profesional.</span>
             */}
           </div>
         </div>
