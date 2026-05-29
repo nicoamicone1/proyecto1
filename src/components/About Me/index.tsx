@@ -66,7 +66,7 @@ const About = () => {
             <img src={fotoPerfil} alt="Dra. Pons" className="about__img" />
               <div className="about__image-badge">
                   <span className="badge__sub">ABOGADA LITIGANTE</span>
-                  <span className="badge__name">Dra. Pons Amun</span>
+                  <span className="badge__name">Dra. Pons Amún</span>
               </div>
           </div>
           {/* Marca de agua de balanza de fondo */}
