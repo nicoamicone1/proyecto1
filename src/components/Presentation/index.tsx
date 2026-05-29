@@ -27,7 +27,7 @@ const Presentation = () => {
           {/* Línea + etiqueta */}
           <div className="presentation__tag">
             <div className="presentation__line"></div>
-            <span>Derecho Penal, Familia y Violencia</span>
+            <span>Derecho Penal, de Familia y Violencia</span>
           </div>
 
           {/* Título */}
@@ -38,7 +38,7 @@ const Presentation = () => {
 
           {/* Texto */}
           <p className="presentation__text">
-            Asistencia jurídica con intervención estratégica y humana. Te
+            Asistencia jurídica, estratégica y humana. Te
             acompaño en conflictos familiares y procesos penales brindando
             respuestas claras cuando más lo necesitás.
           </p>
@@ -68,8 +68,11 @@ const Presentation = () => {
             </a>
           </div>
           <div className="presentation__trust">
-            <ShieldCheck size={14} strokeWidth={1.5} />
-            <span>Absoluta confidencialidad y discreción garantizada.</span>
+            <ShieldCheck size={14} strokeWidth={1.5} color="var(--solana-cream)" />
+            <span>Todo lo consultado y conversado se encuentra protegido por el secreto profesional.</span>
+            {/*<span>Confidencialidad y secreto profesional garantizados.</span>
+               <span>Todo lo consultado y conversado se encuentra protegido por el secreto profesional.</span>
+            */}
           </div>
         </div>
       </div>

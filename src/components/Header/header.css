@@ -129,17 +129,23 @@
 .header__socials a {
     display: flex;
     align-items: center;
+    gap: 6px;
+    text-decoration: none;
 }
 
 .header__socials svg {
   width: 20px;
   height: 20px;
   transition: 0.3s;
-  fill: white;
+  fill: var(--solana-cream);
 }
 
 .header__socials svg:hover {
   color: #b6d0e5;
+}
+
+.header__instagram-text {
+  color: var(--solana-cream);
 }
 
 .header__cta {
@@ -156,7 +162,7 @@
 }
 
 .header__cta:hover {
-  color: white;
+   color: var(--solana-cream);
 }
 
 /* Mobile toggle */

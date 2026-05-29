@@ -19,7 +19,7 @@ const Footer = () => {
             Derecho inteligente y contención genuina. Diseñamos soluciones
             legales estratégicas para proteger tus derechos e intereses.
           </p>
-          <a
+         {/** <a
             href="https://instagram.com/draponsamun"
             target="_blank"
             rel="noopener noreferrer"
@@ -41,6 +41,7 @@ const Footer = () => {
               <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" />
             </svg>
           </a>
+          */}
         </div>
 
         {/* Columna 2: Navegación */}
